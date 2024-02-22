@@ -17,3 +17,4 @@ http.createServer(function (req, res) {
     res.end(data);
   });
 }).listen(3000);
+console.log('Server Running at http://')
